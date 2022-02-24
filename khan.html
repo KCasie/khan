@@ -5,20 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Khan Academy</title>
+        <!-- external CSS link -->
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+        <!-- another font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     </head>
     <body>
         <header>
             <nav>
                 <ul>
                     <li>Courses</li>
+                    <li><i class="fa-solid fa-caret-down"></i></li>
                     <li>
                         <form>
                             <input type="search" name="search" placeholder="Search">
                         </form>
                     </li>
+                </ul>
+                <ul>
                     <li>
-                        <img src="#" alt="Khan Academy">
+                        <img src="khanlogo.png" alt="Khan Academy">
                     </li>
+                </ul>
+                <ul>
                     <li>Donate</li>
                     <li>Login</li>
                     <li>Sign up</li>
@@ -26,12 +44,13 @@
             </nav>
         </header>
 
-        <section>
+        <section class="clearfix">
             <section>
-                <img src="#" alt="Students">
+                <img src="https://placekitten.com/560/560" alt="Students">
             </section>
             <section>
-                <h1>For every student, every classroom. Real results.</h1>
+                <h1>For every student, every classroom.
+                <span>Real results.</span></h1>
                 <p>We're a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.</p>
                 <ul>
                     <li><a href="#">Learners</a></li>
@@ -42,9 +61,9 @@
             </section>
         </section>
 
-        <section>
+        <!-- <section class="center">
             <h2>Why Khan Academy works</h2>
-        </section>
+        </section> -->
 
     </body>
 </html>

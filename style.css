@@ -1,0 +1,113 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+nav {
+  border-bottom: 1px solid rgb(214, 216, 218);
+  height: 6vh;
+}
+
+nav > ul {
+  margin: 0 4%;
+}
+
+nav > ul > li {
+  display: inline;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  color: rgb(24, 101, 242);
+  margin: 0 1%;
+}
+
+form {
+  display: inline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+section img {
+  float: left;
+  margin: 1% 0 0 10%;
+}
+
+section > section + section li {
+  background: rgb(24, 101, 242);
+  padding: 0.8% 1.6%;
+  border-radius: 5px;
+  display: inline;
+}
+
+section > section + section li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+/* section > section + section > h1 {
+  margin: 2% 0;
+} */
+
+h1, span {
+  font-family: 'Source Serif Pro', serif;
+  color: rgb(33, 36, 44);
+  font-size: 3rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+h1 {
+  padding-top: 10%;
+  /* width: 2px; */
+  display: block;
+}
+
+span {
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  margin: 2% 20%;
+  color: rgb(37, 40, 48);
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
