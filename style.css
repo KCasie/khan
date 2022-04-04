@@ -115,6 +115,9 @@ section > section + section li a {
   font-family: 'Lato', sans-serif;
 }
 
+span:first-child{
+  font-weight: 400;
+}
 
 h1, span {
   font-family: 'Source Serif Pro', serif;
@@ -122,16 +125,17 @@ h1, span {
   font-size: 3rem;
   text-align: left;
   margin-bottom: 0;
+  display: block;
 }
 
 h1 {
   padding-top: 10%;
-  /* width: 2px; */
   display: block;
 }
 
 span {
   font-weight: 700;
+  padding-bottom: 1%;
 }
 
 p {
