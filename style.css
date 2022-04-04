@@ -138,11 +138,17 @@ span {
   padding-bottom: 1%;
 }
 
+p > span {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 0;
+}
+
 p {
   font-family: 'Lato', sans-serif;
   color: rgb(37, 40, 48);
   line-height: 30px;
-  padding: 2% 0;
+  padding-bottom: 2%;
 }
 
 header + section > section + section {
